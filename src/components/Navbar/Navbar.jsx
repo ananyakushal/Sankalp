@@ -1,5 +1,5 @@
 import React from "react";
-import Toggle from "../Toggle/Toggle";
+// import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 const navbar = () => {
@@ -8,7 +8,7 @@ const navbar = () => {
       {/* left */}
       <div className="n-left">
         <div className="n-name">SANKALP</div>
-        <Toggle />
+        {/* <Toggle /> */}
       </div>
       {/* right */}
       <div className="n-right">
@@ -26,7 +26,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="works" spy={true} smooth={true}>
-                Whatever
+                Help
               </Link>
             </li>
             <li>
